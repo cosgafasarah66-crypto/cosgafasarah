@@ -33,6 +33,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <Link href="/about">About</Link>
       <Link href="/projects">Projects</Link>
       </nav>
+      <header className="border-b bg-gray-100">
+  <nav className="mx-auto flex max-w-2xl gap-6 px-6 py-4 font-medium">
+    <Link href="/" className="hover:text-blue-600">Home</Link>
+    <Link href="/about" className="hover:text-blue-600">About</Link>
+    <Link href="/projects" className="hover:text-blue-600">Projects</Link>
+  </nav>
+</header>
       {children}
       </body>
     </html>
