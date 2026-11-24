@@ -4,7 +4,7 @@ export default function AboutPage() {
       <h1 className="text-2xl font-bold">
         About Us
       </h1>
-      <p>Write two sentences about yourself.</p>
+      <p>Hello, I am Sarah. I am a IT student.</p>
     </main>
   );
 }

@@ -4,6 +4,7 @@ import "./globals.css";
 import Link from "next/link";
 
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -15,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My Site",
+  title: "Sarah | Personal Site",
   description: "A personal site built with Next.js",
 };
 

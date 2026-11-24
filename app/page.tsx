@@ -1,12 +1,11 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
-    <main className="p-8">
-      <h1 className="text-3xl font-bold">
-        Hi, i am Sarah
-      </h1>
-      <p className="mt-2">
-        Welcome to my first Next.js app.
-      </p>
+    <main>
+      <h1>Hello, I am Sarah</h1>
+      <p>I am an IT student.</p>
+      <Link href="/projects">See my projects</Link>
     </main>
   );
 }
